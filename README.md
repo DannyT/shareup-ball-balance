@@ -1,7 +1,7 @@
-# Phaser 3 Boilerplate
-A starting point for Phaser 3 projects. Full screen game default which resizes with browser resize/device rotation.
+# Silly game for ShareUp
+Use accelerometer and microphone somehow...
 
-Based on [this excellent repo](https://github.com/nkholski/phaser3-es6-webpack) by @nkholski
+Based on [Phaser 3 boilerplate](https://github.com/DannyT/phaser3-boilerplate)
 
 # Setup
 You’ll need to install a few things before you have a working copy of the project.
