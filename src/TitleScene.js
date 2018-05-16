@@ -28,6 +28,8 @@ class TitleScene extends Phaser.Scene {
         this.logo.setVelocity(100, 200);
         this.logo.setBounce(1, 1);
         this.logo.setCollideWorldBounds(true);
+
+        this.scene.start('GameScene');
     }
 
     update(time, delta) {

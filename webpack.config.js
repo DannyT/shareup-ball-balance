@@ -21,7 +21,7 @@ module.exports = {
         ],
         vendor: ['phaser']
     },
-    devtool: 'cheap-source-map',
+    devtool: 'eval-source-map',
     output: {
         pathinfo: true,
         path: path.resolve(__dirname, 'dist'),
