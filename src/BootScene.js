@@ -8,6 +8,8 @@ class BootScene extends Phaser.Scene {
 
     preload(){
       this.load.image('logo', 'assets/moov2-logo.png');
+      this.load.tilemapTiledJSON('map', 'assets/tilemaps/level1.json');
+      this.load.image('terrain', 'assets/tilesets/snow-expansion.png');
     }
 
     create(){
